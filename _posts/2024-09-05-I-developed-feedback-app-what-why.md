@@ -1,7 +1,7 @@
 # I Developed FeedbackApp.id (BETA), Here is What, Why
 
 ## TLDR
-1. I developed FeedbackApp https://feedbackapp.id. It currently is beta.
+1. I developed FeedbackApp [https://feedbackapp.id](https://feedbackapp.id). It currently is beta.
 2. Cost-efficient to be accessible for individual and small business.
 
 ## What is FeedbackApp.id?
@@ -74,4 +74,4 @@ I plan to write on how I architecture and develop FeedbackApp.id. Stay tuned!
 ----
 If you have any feedback for me on these writing or is there any topic 
 that you would like me to write, 
-please help me by giving your feedback here: https://feedbackapp.id/s/11
+please help me by giving your feedback here: [https://feedbackapp.id/s/11](https://feedbackapp.id/s/11)
