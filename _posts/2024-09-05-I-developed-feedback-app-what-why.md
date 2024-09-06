@@ -14,7 +14,7 @@ feedback from your respondents.
 **Focus on collecting the feedback, not designing the form.**
 
 ## Why do I develop FeedbackApp.id?
-Personally, I do it to challenge myself to build a product from scratch.
+Personally, I do it to challenge myself to build a product that I own myself.
 
 I have been working as a software engineer since 2010, in that span of years, I feel my soft skill side has
 improved a lot and I did it by 
