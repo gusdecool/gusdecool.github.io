@@ -2,7 +2,7 @@
 
 Tutorial how to set up AWS CloudWatch agent with on-premise server so we can send logs from server outside AWS.
 
-The second and final part is available here https://medium.com/@gusdecool/setup-aws-cloudwatch-agent-on-premise-server-part-2-end-a2ff6d057859
+The second and final part is available here [PART 2](https://gusdecool.github.io/2022/06/25/Setup-AWS-CloudWatch-Agent-On-Premise-Server-Part-2-end.html)
 
 ----
 
