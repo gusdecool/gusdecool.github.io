@@ -216,16 +216,16 @@ If you found my blog post insightful and valuable, you can support my work with 
 Your support helps sustain independent writing, research, and the continued sharing of high-quality content.
 
 **Why Donate?**  
-Encourages the creation of more in-depth, well-researched content.
-Helps cover costs like hosting, tools, and time spent on writing.
-Supports independent writing without paywalls or intrusive ads.
+- Encourages the creation of more in-depth, well-researched content.
+- Helps cover costs like hosting, tools, and time spent on writing.
+- Supports independent writing without paywalls or intrusive ads.
 
 **How It Works:**  
-This is a voluntary contribution with a minimum of $3—you can choose any amount.
-100% of your support goes toward improving and expanding my content.
-Your contribution is greatly appreciated.
+- This is a voluntary contribution with a minimum of $3—you can choose any amount.
+- 100% of your support goes toward improving and expanding my content.
+- Your contribution is greatly appreciated.
 
 **Have a Topic in Mind?**  
 If there's a specific topic you'd like me to cover, feel free to reach out! You can email me at [budi.arsana@bungamata.com](mailto:budi.arsana@bungamata.com), and I'll consider it for future content.
 
-Support me at https://budiarsana.gumroad.com/coffee
+Support me at [https://budiarsana.gumroad.com/coffee](https://budiarsana.gumroad.com/coffee)
