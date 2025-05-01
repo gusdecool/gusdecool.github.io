@@ -143,7 +143,6 @@ scrape_configs:
         labels:
           job: app-2-symfony
           __path__: /var/log/app-2-symfony/*log
-
 ```
 
 Example of my log single line for `app-1-laravel` is like below.
