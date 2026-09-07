@@ -116,3 +116,7 @@ recommend the company product to my connections.
 
 ## How I look for job now?
 That will be for next post, maybe after I got the job :)
+
+----
+If you have any feedback on this post, or a topic you'd like me to write about, let me know at
+[budi.arsana@bungamata.com](mailto:budi.arsana@bungamata.com).
