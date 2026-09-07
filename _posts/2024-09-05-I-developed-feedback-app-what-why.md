@@ -1,3 +1,8 @@
+---
+tags: [Product]
+excerpt: "Why I built FeedbackApp.id — a simple, anonymous, cost-efficient feedback form tool for individuals and small businesses."
+---
+
 # I Developed FeedbackApp.id (BETA), Here is What, Why
 
 ## TLDR

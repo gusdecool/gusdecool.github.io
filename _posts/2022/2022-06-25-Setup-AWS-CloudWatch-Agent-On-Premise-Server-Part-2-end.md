@@ -1,3 +1,8 @@
+---
+tags: [AWS]
+excerpt: "Part 2: adding the AWS CloudWatch agent to a Kubernetes server, with the full declarative config explained."
+---
+
 # Setup AWS CloudWatch Agent On-Premise Server — Part 2 [END]
 
 Tutorial how to add AWS CloudWatch agent in Kubernetes server.
