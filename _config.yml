@@ -35,6 +35,11 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
 
+# Folders here are never built into the site, even if a file inside them
+# would otherwise be picked up as a page.
+exclude:
+  - wip
+
 titles_from_headings:
   strip_title: true
   collections: true
