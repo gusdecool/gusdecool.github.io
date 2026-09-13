@@ -1,0 +1,16 @@
+<footer class="site-footer h-card">
+  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+  <div class="wrapper site-footer-inner">
+    <div class="footer-identity">
+      <span class="footer-title p-name">{{ site.title | escape }}</span>
+      <span class="footer-tagline">{{ site.description | escape }}</span>
+    </div>
+    <div class="footer-links">
+      {%- if site.github_username -%}
+      <a href="https://github.com/{{ site.github_username }}">{{ site.github_username }} ↗</a>
+      {%- endif -%}
+      <a class="u-email" href="mailto:budi.arsana@bungamata.com">email ↗</a>
+      <a href="{{ "/feed.xml" | relative_url }}">rss ↗</a>
+    </div>
+  </div>
+</footer>

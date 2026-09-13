@@ -1,0 +1,64 @@
+---
+layout: default
+---
+{%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+<div class="home">
+
+  <section class="hero">
+    <div class="hero-copy">
+      <span class="eyebrow">Blog</span>
+      <h1 class="hero-title">Notes on building backend systems.</h1>
+      <div class="hero-body">
+        {{ content }}
+      </div>
+    </div>
+
+    {%- if site.posts.size > 0 -%}
+    {%- assign latest = site.posts.first -%}
+    <div class="hero-aside">
+      <div class="latest-post-card">
+        <span class="eyebrow">Latest post</span>
+        <a class="latest-post-link" href="{{ latest.url | relative_url }}">{{ latest.title | escape }}</a>
+        <div class="latest-post-meta">{{ latest.date | date: date_format }} &middot; gusdecool.github.io</div>
+      </div>
+      <div class="stat-cards">
+        <div class="stat-card">
+          <div class="stat-number">{{ site.posts.size }}</div>
+          <div class="stat-label">posts</div>
+        </div>
+        <div class="stat-card">
+          {%- assign first_year = site.posts.last.date | date: "%Y" -%}
+          {%- assign last_year = site.posts.first.date | date: "%Y" -%}
+          <div class="stat-number">{{ first_year }}&mdash;{{ last_year }}</div>
+          <div class="stat-label">archive</div>
+        </div>
+      </div>
+    </div>
+    {%- endif -%}
+  </section>
+
+  {%- if site.posts.size > 0 -%}
+  <section class="post-list-section">
+    <div class="section-header">
+      <span class="section-title">Posts</span>
+      <span class="section-meta">{{ site.posts.size }} posts &middot; newest first</span>
+    </div>
+
+    <div class="post-rows">
+      {%- for post in site.posts -%}
+      <a class="post-row" href="{{ post.url | relative_url }}">
+        <span class="post-row-date">{{ post.date | date: date_format }}</span>
+        <span class="post-row-title">{{ post.title | escape }}</span>
+        <span class="post-row-arrow">&rarr;</span>
+      </a>
+      {%- endfor -%}
+    </div>
+
+    <div class="post-list-footer">
+      <span class="rss-subscribe">subscribe via <a href="{{ "/feed.xml" | relative_url }}">RSS</a></span>
+      <a class="btn btn-outline" href="{{ "/archive.html" | relative_url }}">Blog Archive <span class="btn-arrow">&rarr;</span></a>
+    </div>
+  </section>
+  {%- endif -%}
+
+</div>
