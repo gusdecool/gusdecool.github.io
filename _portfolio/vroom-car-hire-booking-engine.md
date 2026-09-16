@@ -9,8 +9,8 @@ excerpt: "Car hire aggregator booking engine, serving millions visitors a day."
 [Visit the website]({{ page.website }})
 
 ## Tech stacks used
-PHP, Laravel (REST API), React (Widget & SPA), AWS Cloud, Docker, Event-Driven Architecture, Email Template (EJS),
-MJML & EJS for email templating.
+PHP, TypeScript, MySQL, Laravel (REST API), React (Widget & SPA), AWS Cloud, Docker, Event-Driven Architecture,
+Email Template (EJS), MJML & EJS for email templating.
 
 ## REST API & 3rd Parties Integration
 Developed the REST API that will be consumed by our web, mobile and 3rd parties B2B. As aggregator, I also integrated
@@ -50,7 +50,11 @@ and report the deliverability to stakeholders.
 ## Infrastructure as Code
 Implemented IaC to automate AWS SAM deployment where previously we do it manually via CDK or AWS Console.
 
+## Architected gradual migration
+Architected gradual migration approach for the frontend website from Laravel Blade to React. Mitigated the risk breaking
+the business core functionality.
+
 ----
 
 ## Client reviews
-![upwork review](../image/upwork-review-1.png)
+![upwork review](/image/upwork-review-1.png)
