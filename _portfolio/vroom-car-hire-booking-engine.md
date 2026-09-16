@@ -53,4 +53,4 @@ Implemented IaC to automate AWS SAM deployment where previously we do it manuall
 ----
 
 ## Client reviews
-![upwork review](../image/upwork-review.png)
+![upwork review](../image/upwork-review-1.png)
