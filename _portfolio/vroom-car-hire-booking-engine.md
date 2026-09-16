@@ -71,6 +71,9 @@ Added data ETL pipeline into CRM to improve the conversion.
 ## User registration
 Implemented hybrid user registration with AWS Cognito and internal user RBAC. 
 
+## AWS Cloud & Google Cloud
+Managed the AWS Cloud & Google Cloud infrastructure. Secured the parameter secrets, data privacy & IAM least privilege.
+
 ----
 
 ## Client reviews
