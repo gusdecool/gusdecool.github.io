@@ -46,3 +46,11 @@ Pionereed how to write testing notes for QA to rise the standard operation proce
 ## Owned the full SDLC
 Manage the task from management, distributed the task with team, hands-on development, responsible for production deployment
 and report the deliverability to stakeholders.
+
+## Infrastructure as Code
+Implemented IaC to automate AWS SAM deployment where previously we do it manually via CDK or AWS Console.
+
+----
+
+## Client reviews
+![upwork review](../image/upwork-review.png)
