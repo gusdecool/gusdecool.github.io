@@ -1,5 +1,6 @@
 title: "Budi Arsana | Technical Lead Engineer | AI Native | AWS Cloud"
 author: "Budi Arsana"
+url: "https://gusdecool.github.io"
 
 # This will show up in places like twitter, linkedin, etc, if you share your sites url as a post.
 description: "Technical lead engineer, specializing in backend technology, aggregator engine, GIS Spatial, and AI/ML."
@@ -34,6 +35,7 @@ minima:
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-seo-tag
 
 # Folders here are never built into the site, even if a file inside them
 # would otherwise be picked up as a page.
@@ -50,6 +52,15 @@ collections:
     permalink: /portfolio/:slug/
 
 defaults:
+  # Default social-share preview image (og:image / twitter:image via jekyll-seo-tag),
+  # unless a page/post overrides it with its own `image:` front matter. No `type` filter
+  # so it applies to pages, posts, and every collection (jekyll-seo-tag only reads
+  # page-level front matter, not top-level site config, so this can't live as a plain
+  # `image:` key above).
+  - scope:
+      path: ""
+    values:
+      image: /image/avatar.jpg
   - scope:
       path: ""
       type: post
