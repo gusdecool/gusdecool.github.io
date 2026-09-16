@@ -10,11 +10,15 @@ excerpt: "Car hire aggregator booking engine, serving millions visitors a day."
 
 ## Tech stacks used
 PHP, TypeScript, MySQL, Laravel (REST API), React (Widget & SPA), AWS Cloud, Docker, Event-Driven Architecture,
-Email Template (EJS), MJML & EJS for email templating.
+MJML & EJS for email templating, Symfony Component & Doctrine ORM.
 
 ## REST API & 3rd Parties Integration
 Developed the REST API that will be consumed by our web, mobile and 3rd parties B2B. As aggregator, I also integrated
 API from 3rd party as the provider of the services.
+
+## Payment Gateway
+Implemented payment gateway integration with Stripe, PayPal & Braintree. Stripe capable of multi platform connection.
+Managed the auto recovery/refund when failure occur and idempotency to avoid duplicate charge. 
 
 ## Docker for local development
 I was at Prosura team before assigned to Vroom team. When I started at Vroom team, it took me a week to setup
@@ -43,16 +47,23 @@ migrated it to use SQL GIS spatial data type which is more efficient and accurat
 Lead team consist of 8 developers and intersect to mentor QA team on how to testing the application, which part need focused.
 Pionereed how to write testing notes for QA to rise the standard operation procedure.
 
-## Owned the full SDLC
+## Owned the full SDLC CI/CD
 Manage the task from management, distributed the task with team, hands-on development, responsible for production deployment
 and report the deliverability to stakeholders.
 
 ## Infrastructure as Code
 Implemented IaC to automate AWS SAM deployment where previously we do it manually via CDK or AWS Console.
 
-## Architected gradual migration
+## Architected React Migration
 Architected gradual migration approach for the frontend website from Laravel Blade to React. Mitigated the risk breaking
 the business core functionality.
+
+## AI-first development
+Mentored the team on how to use AI code assistant while still maintaining the code quality and best security practices.
+
+## Event-Driven System & Data ETL
+Architected event-driven system with AWS Event Bridge to API Destination or Lambda. Reduced API latency down to 75%. 
+Added data ETL pipeline into CRM to improve the conversion.
 
 ----
 
