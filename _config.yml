@@ -44,9 +44,19 @@ titles_from_headings:
   strip_title: true
   collections: true
 
+collections:
+  portfolio:
+    output: true
+    permalink: /portfolio/:slug/
+
 defaults:
   - scope:
       path: ""
       type: post
     values:
       tags: Other
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: portfolio

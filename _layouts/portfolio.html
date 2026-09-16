@@ -1,0 +1,24 @@
+---
+layout: default
+---
+<link href="/css/override.css" rel="stylesheet" type="text/css">
+<article class="post h-entry">
+
+  <header class="post-header">
+    <h1 class="post-title p-name">{{ page.title | escape }}</h1>
+    <p class="post-meta">
+      {%- assign date_format = site.minima.date_format | default: "%b %Y" -%}
+      {{ page.start_date | date: date_format }}&ndash;{%- if page.end_date -%}{{ page.end_date | date: date_format }}{%- else -%}Present{%- endif -%}
+      {%- if page.website -%}
+        &nbsp;&middot; <a href="{{ page.website }}">{{ page.website | remove_first: "https://" | remove_first: "http://" | split: "?" | first }}</a>
+      {%- endif -%}
+    </p>
+  </header>
+
+  <div class="post-content e-content">
+    {{ content }}
+  </div>
+
+  <p><a href="{{ "/portfolio/" | relative_url }}">&larr; Back to portfolio</a></p>
+
+</article>
