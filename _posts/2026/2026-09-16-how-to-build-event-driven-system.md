@@ -59,4 +59,4 @@ I have created similar logic in gist github with PHP with retry & fix delay, it 
 lock as out of scope and managed by the caller, but it should give you an idea how to implement it and improve it for your use case.
 
 Deadlock Retry PHP Function 
-https://gist.github.com/gusdecool/8b406ee603a98039fb6d6de7b1555544
+[https://gist.github.com/gusdecool/8b406ee603a98039fb6d6de7b1555544](https://gist.github.com/gusdecool/8b406ee603a98039fb6d6de7b1555544)
