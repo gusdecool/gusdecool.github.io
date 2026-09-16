@@ -1,7 +1,6 @@
 Hi, thank you for visiting my blog.
 
-I'm a senior software engineering that specialized in backend technology like REST API, since 2010.
+I'm a technical lead engineer, API integrator, aggregator enginer, AI native developer & AWS Cloud architect.
 
-I shared my experience while architecture & developing software in this blog.
-If you have any suggestion or specifics topic that you would like me to write, 
-please let me know via email at [budi.arsana@bungamata.com](mailto:budi.arsana@bungamata.com)
+I shared my experience while architecture & developing software in this blog. My approach when development is always 
+start small but ready to scale. Avoid over engineering.
