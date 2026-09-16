@@ -8,6 +8,9 @@ excerpt: "Car hire aggregator booking engine, serving millions visitors a day."
 
 [Visit the website]({{ page.website }})
 
+![landing page](/image/portfolio/vroom-landing.png)
+![landing page](/image/portfolio/vroom-search-page.png)
+
 ## Tech stacks used
 PHP, TypeScript, MySQL, Laravel (REST API), React (Widget & SPA), AWS Cloud, Docker, Event-Driven Architecture,
 MJML & EJS for email templating, Symfony Component & Doctrine ORM.
@@ -64,6 +67,9 @@ Mentored the team on how to use AI code assistant while still maintaining the co
 ## Event-Driven System & Data ETL
 Architected event-driven system with AWS Event Bridge to API Destination or Lambda. Reduced API latency down to 75%. 
 Added data ETL pipeline into CRM to improve the conversion.
+
+## User registration
+Implemented hybrid user registration with AWS Cognito and internal user RBAC. 
 
 ----
 
