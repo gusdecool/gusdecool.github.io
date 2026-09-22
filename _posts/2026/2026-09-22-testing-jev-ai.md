@@ -2,7 +2,7 @@
 
 I tried Jev AI from [TypeSafe](https://typesafe.ai/) to see if it really faster and can reduce the AI cost.
 
-Source code available at https://github.com/gusdecool/experiment/blob/main/jev/bench.ts
+Source code available at [https://github.com/gusdecool/experiment/blob/main/jev/bench.ts](https://github.com/gusdecool/experiment/blob/main/jev/bench.ts)
 
 ## What is Jev
 
