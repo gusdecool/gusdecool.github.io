@@ -51,9 +51,17 @@ rest of our infrastructure, under a budget we already watch.
 
 A few design choices shaped the rest.
 
-**Two stages, two models.** Planning is where judgment matters, so it runs on Opus, the
-larger model. Building a plan that is already approved is more mechanical, so it runs on Sonnet,
-which is cheaper. Each stage has its own instructions file, turn limit and time limit.
+**Two stages, two models.** I chose Claude Opus 5.5 for brainstorming and planning because
+it's the stronger reasoning model. This stage has to understand the issue, explore the code,
+spot what's unclear, weigh the options and decide how the work should be done. A mistake here
+carries into everything after it, so it's worth paying for the best reasoning.
+
+For code generation I use Claude Sonnet 5, because it costs less. By the time it runs, the hard
+thinking is done. The plan is approved and says which files to change and what to test. Sonnet
+only has to read the plan and write the code, and it does that well. The build is also the
+longest stage, with the most turns, so a cheaper model there saves the most money.
+
+Each stage has its own instructions file, turn limit and time limit.
 
 **The draft pull request holds the spec and the plan.** Each run starts from nothing. It has no
 memory of the last run. So the issue thread and the files on the branch are the memory. Every
@@ -207,7 +215,8 @@ do exactly that.
    and I merge. Everything between is fine to hand off.
 2. **The agent has no memory, so give it a place to keep one.** The issue thread and the branch
    are enough, as long as every run reads them first and leaves one clear comment at the end.
-3. **Pick the model for the job.** Opus for deciding what to build, Sonnet for building it.
+3. **Pick the model for the job.** A reasoning model (Opus) for deciding what to build, and a
+   cheaper model (Sonnet) for writing the code from the approved plan.
 4. **Some things can only be tested for real.** IAM rules, GitHub's token handling and how
    waiting runs behave all looked fine on paper. Expect a short round of small fixes after the
    first run, and write down what each one was for.
